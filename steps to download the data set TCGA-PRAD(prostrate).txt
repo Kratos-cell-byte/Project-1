@@ -1,0 +1,22 @@
+go to the site
+build cohort
+click on cohort builder 
+click on project
+click on target site
+go to repository
+in the data category filter click on transcriptome profiling
+from data type click on gene expression quantification 
+from experimental strategy click on RNA-Seq
+From workflow type click on STAR-counts
+Add all files to cart
+click on cart icon
+download manifest in the form of txt file 
+GDC data transfer tool download,extract and install the file
+put the file in new folder which contains both exe and manifest file
+open the Terminal specify the path of the folder( ./gdc-client.exe download -m gdc_manifest.2025-06-07.205148.txt) press enter.
+Put this code and press enter
+
+TERMINAL CODE FOR STreamlit
+cd Desktop
+python -m streamlit run app.py
+
